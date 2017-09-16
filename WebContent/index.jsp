@@ -7,6 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+<ol>
+	<li><a href="page/javascript_effects300/dir300.html">书籍：JavaScript网页特效经典300例：我自己抄书的。</a></li>
+</ol>
 </body>
 </html>

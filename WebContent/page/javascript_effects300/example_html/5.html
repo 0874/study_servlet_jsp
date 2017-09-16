@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function changeTitle(){
+		var newTitle = document.getElementById('newTitle').value;
+		document.title = newTitle;
+	}
+</script>
+</head>
+<body>
+	<input type="text" id="newTitle" >
+	<br>
+	<input type="button" value="修改标题" onclick="changeTitle()">
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<script type="text/javascript">
+	var willClose = true;
+	function clickBody(){
+		willClose = false;
+	}
+	setInterval(() => {
+		if(willClose)
+			window.close();
+		else
+			willClose =  true;
+	}, 2000);
+</script>
+<body onclick="clickBody()">
+
+</body>
+</html>

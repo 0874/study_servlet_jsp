@@ -9,6 +9,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 @WebServlet(urlPatterns="/page_redirect")
 public class PageRedirect extends HttpServlet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 5593692992649824912L;
+
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		// TODO Auto-generated method stub
