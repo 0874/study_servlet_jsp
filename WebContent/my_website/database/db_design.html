@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	li{
+		border-bottom: 1px gray solid;
+		border-left: 1px green solid;
+	}
+	table{
+		border:1px red solid;
+		
+	}
+	table td{
+		border:1px red solid;
+	}
+	caption{
+		white-space: nowrap;
+	}
+	
+	td{
+		white-space: nowrap;
+		padding:5px 15px ;
+		
+		
+	}
+</style>
+</head>
+<body>
+<h3 align="center">购物网站数据库设计</h3>
+<ol>
+	<li>用户基本信息
+		<ol>
+			<li>帐号：字母数字，中文</li>
+			<li>密码：</li>
+			<li>手机号</li>
+			<li>邮箱</li>
+			<li>注册时间</li>
+			<li>身份：
+				<ol>
+					<li>普通用户</li>
+					<li>卖家
+						<ol>
+							<li>店主</li>
+							<li>员工</li>
+						</ol>
+					</li>
+					<li>网站人员
+						<ol>
+							<li>客服人员</li>
+							<li>业务人员</li>
+							<li>管理人员</li>
+							<li>超管</li>
+						</ol>
+					</li>
+					<li>这里人员的权限及命名方式应具有递进关系，也方便实现</li>
+				</ol>
+			</li>
+		</ol>
+	</li>
+	<li>物品信息
+		<ol>
+			<li></li>
+		</ol>
+	</li>
+</ol>
+<hr>
+<h3 align="center">数据表表格信息设计</h3>
+<div align="center">
+	<table cellpadding="0px" cellspacing="0">
+		<caption align="">人物信息表</caption>
+		<tbody>
+			<tr><td>名称</td><td>类型</td><td>长度</td><td>是否为空</td><td>缺省值</td><td>生成方式</td><td>依赖于</td></tr>
+			<tr><td>id</td><td>int</td><td>11</td><td>false</td><td>&nbsp;</td><td>自增长</td><td>&nbsp;</td></tr>
+		</tbody>
+	</table>
+</div>
+</body>
+</html>
